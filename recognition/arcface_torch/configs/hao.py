@@ -22,6 +22,6 @@ config.dali = False
 config.rec = "/kaggle/input/splited-casia-webmaskedface/splited-CASIA-WebMaskedFace/train"
 config.num_classes = 10575
 config.num_image = 257326
-config.num_epoch = 20
+config.num_epoch = 50
 config.warmup_epoch = 0
 config.val_targets = ['lfw', 'cfp_fp', "agedb_30"]
