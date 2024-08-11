@@ -6,7 +6,7 @@ from easydict import EasyDict as edict
 
 config = edict()
 config.margin_list = (1.0, 0.0, 0.4)
-config.network = "r50"
+config.network = "r100"
 config.resume = False
 config.output = "/kaggle/working/"
 config.embedding_size = 512
